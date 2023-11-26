@@ -9,7 +9,7 @@ PG = wb.get_data_yahoo('PG', start='1995-01-01')
 print(PG.head())
 print(PG.tail())
 
-
+# SIMPLE RETURN
 PG['simple_return'] = (PG['Adj Close']/PG['Adj Close'].shift(1)) - 1
 print(PG['simple_return'])  # daily closing percentage
 
