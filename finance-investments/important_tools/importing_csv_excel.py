@@ -19,3 +19,4 @@ mydata_02.to_excel("~/Documents/finance-investments/docs/csv/example_excel.xlsx"
 mydata_03 = pd.read_excel("~/Documents/finance-investments/docs/csv/example_excel.xlsx")
 
 print(mydata_03)
+
