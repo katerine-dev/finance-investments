@@ -12,6 +12,7 @@ pandas-datareader = "^0.10.0"
 numpy = "^1.26.2"
 yfinance = "^0.2.32"
 quandl = "^3.7.0"
+matplotlib = "^3.8.2"
 
 
 [build-system]
