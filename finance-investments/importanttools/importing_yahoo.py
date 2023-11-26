@@ -11,7 +11,7 @@ print(ser[2])
 
 yf.pdr_override()
 
-PG = wb.get_data_yahoo('PG', start='1995-1-1')
+PG = wb.get_data_yahoo('PG', start='1995-01-01')
 # PG is the ticker
 print(PG)
 
@@ -25,5 +25,5 @@ print(PG.head(20))
 tickers = ['PG', 'MSFT', 'T', 'F', 'GE']
 new_data = pd.DataFrame()
 for t in tickers:
-    new_data[t] = wb.DataReader(t, start='1995-1-1')['Adj Close']  # 'Adj close' (adjusted closure, name column)
+    new_data[t] = wb.DataReader(t, start='1995-01-01')['Adj Close']  # 'Adj close' (adjusted closure, name column)
 print(new_data.tail())
