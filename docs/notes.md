@@ -8,3 +8,16 @@ NumPy - work with multidimensional arrays: Organization and process datas
 Pandas -  perfect for organize dates on tables and attach descriptive labels to rows and columns table
 Matplotlib - graphs for visualizing NumPy calculations
 statsmodels = list of statistics functions (graphs, regression, ...)
+
+
+#### APIs for Financial Data
+
+- iex
+- morningstar
+- alpha vantage
+- quandl
+- yahoo
+- google finance
+
+
+
