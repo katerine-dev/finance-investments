@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 from pandas_datareader import data as wb
 import yfinance as yf
-import matplotlib.pyplot as plt
 
 yf.pdr_override()
 
@@ -49,6 +48,5 @@ print(sec_returns['BEI.DE'].mean() * 250)
 print(sec_returns[['PG', 'BEI.DE']].mean() * 250)
 # Array (volatility)
 print(sec_returns[['PG', 'BEI.DE']].std() * 250 ** 0.5)
-
 
 
